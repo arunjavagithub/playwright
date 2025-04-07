@@ -15,9 +15,9 @@ public class PlaywrightApplication {
 		SpringApplication.run(PlaywrightApplication.class, args);
 		}
 
-		@Bean
-		public List<ToolCallback> registerTools (PlayWrightService playwrightService){
-		return List.of(ToolCallbacks.from(playwrightService));
-	}
+//		@Bean
+//		public List<ToolCallback> registerTools (PlayWrightService playwrightService){
+//		return List.of(ToolCallbacks.from(playwrightService));
+//	}
 
 }
