@@ -12,7 +12,7 @@ public class McpServerConfiguration {
 
 
     @Bean
-    public ToolCallbackProvider playWrightTools(PlayWrightService playWrightTools) {
-        return MethodToolCallbackProvider.builder().toolObjects(playWrightTools).build();
+    public ToolCallbackProvider playWrightTools(PlayWrightService playWrightService) {
+        return MethodToolCallbackProvider.builder().toolObjects(playWrightService).build();
     }
 }
